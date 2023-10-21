@@ -3,31 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Tyler's Code</title>
 </head>
 <body>
     <h1>This is the h1 heading</h1>
-    <p>This is the paragraph for the h1 heading</p>
+    <p style="text-align: center; font-size: 20px;">This is the paragraph for the h1 heading</p>
 
-    <h2>This is the h2 heading</h2>
-    <p>This is the paragraph for the h2 heading</p>
+    <h2 class="second-heading">This is the h2 heading</h2>
+    <p style="text-align: right; font-size: 20px;">This is the paragraph for the h2 heading</p>
 
-    <h3>This is the h3 heading</h3>
+    <h3 class="third-heading">This is the h3 heading</h3>
     <p>This is a paragraph for the h3 heading</p>
 
-    <h4>This is the h4 heading</h4>
-    <p>This is the paragraph for the h4 heading</p>
+    <h4 style="text-align: center;" class="fourth-heading">This is the h4 heading</h4>
+    <p style="text-align: center;">This is the paragraph for the h4 heading</p>
 
     <h5>This is the h5 heading</h5>
     <p>This is the paragraph for the h5 heading</p>
 
-    <h6>This is the h6 heading</h6>
-    <p>This is the paragraph for the h6 heading</p>
+    <h6 style="text-align: right; font-size: larger;">This is the h6 heading</h6>
+    <p style="text-align: right;">This is the paragraph for the h6 heading</p>
 
     <img src="short.png" alt="Short image">
 
     <img src="https://s.france24.com/media/display/506680b4-3856-11ed-98e5-005056bf30b7/w:980/p:16x9/000_326M4UF.jpg" alt="mbappe">
 
     <a href="https://inciteddrip.com/collections/coats" target="_blank">Link to coat website</a>
+
+    <!-- This is Tyler's comment -->
+    <ul class="first-ul">
+        <li style="color: white; font-size: 20px;">Bag</li>
+        <li style="color: white; font-size: 20px;">Shoe</li>
+        <li style="color: white; font-size: 20px;">T-Shirt</li>
+        <li style="color: white; font-size: 20px;">Hat</li>
+    </ul>
+
+    <ol class="first-ol">
+        <li style="font-size: 20px;">Bag</li>
+        <li style="font-size: 20px;">T-shirt</li>
+        <li style="font-size: 20px;">Shoe</li>
+        <li style="font-size: 20px;">Hat</li>
+        <li style="font-size: 20px;">socks</li>
+    </ol>
+
+    <div class="first-div">
+        <ul>
+            <li style="color: white; font-size: 20px;">Football</li>
+            <li style="color: white; font-size: 20px;">Basketball</li>
+            <li style="color: white; font-size: 20px;">Volleyball</li>
+            <li style="color: white; font-size: 20px;">Table tennis</li>
+            <li style="color: white; font-size: 20px;">Badminton</li>
+        </ul>
+    </div>
+
+    <div>
+        <ol>
+            <li>Football</li>
+            <li>Basketball</li>
+            <li>Volleyball</li>
+            <li>Table tennis</li>
+            <li>Badminton</li>
+        </ol>
+    </div>
+
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Laughing bacchus Winecallers</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+    <figure>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+        <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+      </figure>
+
+      <form action="www.serverexample.com">
+        <label>First name</label>
+        <input type="text" placeholder="Enter your first name">
+        <br><br>  
+        <label>Last name</label>
+        <input type="text" placeholder="Enter your last name">
+        <br><br>
+        <label>Age</label>
+        <input type="number" placeholder="Eneter your age"> 
+        <br><br>
+        <label>Date</label>
+        <input type="date" placeholder="Date">
+
+        <br><br>
+
+        <input type="radio" name="Coding" id="html">
+        <label>HTML</label>
+
+        <br><br> 
+
+        <input type="radio" name="Coding" id="CSS">
+        <label>CSS</label>
+
+        <br><br>
+        <input type="radio" name="Coding" id="JavaScript"> 
+        <label>JavaScript</label>
+
+        <br><br>
+        <input type="checkbox" name="correct">
+        <label>Mathematics</label>
+
+        <br><br>
+
+        <input type="checkbox" name="correct">
+        <label>Physics</label>
+
+        <br><br>
+
+        <input type="checkbox" name="correct">
+        <label>Chemistry</label>
+        <button>Submit</button>
+        <input type="button" value="Submit">
+      </form>
+
+      <footer>
+        <p id="contact-me">contact me</p>
+        <p id="copyright">copyright 2023</p>
+      </footer>
+      
+<script src="script.js"></script>
 </body>
 </html>

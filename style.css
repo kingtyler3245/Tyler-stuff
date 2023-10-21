@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+
+.second-heading {
+    text-align: right; 
+    color: red;
+}
+
+.third-heading {
+    color: green;
+}
+
+.fourth-heading {
+    text-align: center;
+}
+
+.first-div {
+    background-color: blue;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.first-ol {
+    background-color: yellow;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.first-ul {
+    background-color: red;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#contact-me {
+    font-size: 30px;
+}
